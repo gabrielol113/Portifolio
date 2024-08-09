@@ -15,12 +15,6 @@ export default function Header(){
             nav.className = "hidden";
         }
     }
-    function checkScrollTop(){
-        top = window.scrollY;
-    }
-    useEffect(()=>{        
-        checkScrollTop();
-    },[onwheel])
     return(
         <header className="fixed top-0 start-0 bg-white w-screen h-12 justify-center">
             <div className="flex justify-end">
