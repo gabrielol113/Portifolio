@@ -1,11 +1,6 @@
 import heart from "../../../public/Heart.png";
-import githubIcon from '@/assets/github-mark.png';
 import Image from "next/image";
-import Link from "next/link"
-import heart from "../../../public/Heart.png";
-import githubIcon from '@/assets/github-mark.png';
-import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Bio() {
     return (
@@ -47,7 +42,6 @@ export default function Bio() {
                     </svg>
                 </Link>
             </div>
-        </div>
         </div>
     )
 }

@@ -1,7 +1,5 @@
 "use client";
-"use client";
 import styles from './page.module.css';
-import Image from 'next/image';
 import Image from 'next/image';
 
 const favorite = [
@@ -12,16 +10,7 @@ const favorite = [
     'siteFilmes',
     'Tic-Tac-Toe',
 ]
-
-
-
-
-
-export default function FavoriteProjects(){
-
-    
-
-    
+export default function FavoriteProjects(){ 
     return(
         <div className='flex w-screen h-max flex-col max-sm:mt-96 mt-8 items-center justify-center pb-8'> 
             <h1 className='mb-32 font-semibold'>Favourite Projects</h1>
@@ -72,7 +61,6 @@ export default function FavoriteProjects(){
                     </div>
                 </div>
             </div>       
-        </div>
         </div>
     )
 }

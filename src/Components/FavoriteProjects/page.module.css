@@ -11,16 +11,3 @@
             transform: translateX(0);
         }
 }
-.animation{
-    animation: 1s ease-in 0s 1 slideInFromLeft;
-}    
-@keyframes slideInFromLeft {
-        0% {
-            opacity: 0;
-            transform: translateX(-20%);
-        }
-        100%{            
-            opacity: 100%;
-            transform: translateX(0);
-        }
-}
