@@ -2,7 +2,7 @@ import styles from './page.module.css';
 
 export default function Stack(){
     return(
-        <div className={styles.animation + " border-2 flex max-sm:pt-12 flex-col w-screen h-max justify-center items-center sm:flex-col"}>
+        <div className={styles.animation + " flex max-sm:pt-12 flex-col w-screen h-max justify-center items-center sm:flex-col pb-8"}>
             <h1 className='my-8 text-xl font-semibold'>Stack</h1>
             <div className={" flex max-sm:flex-col max-sm:w-screen w-1/2 items-center max-sm:border-0 border-2 border-blue-200 rounded-lg shadow-lg"}>
                 <div className="w-1/3 max-sm:w-screen h-full border-r-2 p-8">

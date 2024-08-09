@@ -2,11 +2,15 @@ import heart from "../../../public/Heart.png";
 import githubIcon from '@/assets/github-mark.png';
 import Image from "next/image";
 import Link from "next/link"
+import heart from "../../../public/Heart.png";
+import githubIcon from '@/assets/github-mark.png';
+import Image from "next/image";
+import Link from "next/link"
 
 export default function Bio() {
     return (
-        <div className="flex flex-col items-center justify-center bg-black h-screen">
-            <div className='flex flex-col justify-center text-white items-center ml-8 mr-8 w-full'>
+        <div className="flex flex-col min-h-screen items-center justify-center bg-black">
+            <div className='flex flex-col justify-center text-white items-center ml-8 mr-8'>
                 <p className=" font-mono"> Hello! My name is</p>
                 <br />
                 <span className="font-extrabold sm:text-8xl font-mono text-4xl">Gabriel</span>
@@ -43,6 +47,7 @@ export default function Bio() {
                     </svg>
                 </Link>
             </div>
+        </div>
         </div>
     )
 }

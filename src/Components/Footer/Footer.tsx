@@ -5,9 +5,11 @@ import githubIcon from '@/assets/github-mark.png';
 export default function Footer() {
     const date = new Date();
     const year = date.getFullYear();
+    const date = new Date();
+    const year = date.getFullYear();
 
     return (
-        <footer className="flex flex-col justify-center bg-slate-400">
+        <footer className="flex flex-col h-min justify-center bg-slate-400">
             <div className="flex w-full mb-8 mt-8 justify-center">
                 <div className="flex justify-center w-80">
                     <Link
@@ -48,6 +50,9 @@ export default function Footer() {
                         <li className="mx-4 hover:text-white hover:mx-8 transition-all duration-500"><Link href={'/contact'}>Contact</Link></li>
                     </ul>
                 </div>
+            </div>
+            <div className="flex justify-center mt-8">
+                {`@${year} Gabriel Teixeira | All rights reserved`}
             </div>
             <div className="flex justify-center mt-8">
                 {`@${year} Gabriel Teixeira | All rights reserved`}
