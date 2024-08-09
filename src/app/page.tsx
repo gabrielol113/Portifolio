@@ -1,24 +1,18 @@
-'use client';
-import styles from './page.module.css';
-import Header from '@/Components/Header/Header';
 import Footer from '@/Components/Footer/Footer';
-import RepoGrid from '@/Components/RepoGrid/RepoGrid';
 import Bio from '../Components/Bio/Bio';
-import { useState } from 'react';
 import FavoriteProjects from '@/Components/FavoriteProjects/FavoriteProjects';
+import Stack from '@/Components/Stack/Stack';
 
+const bestProjects = [];
 
 export default function Home() {
-  const [themeDark, setThemeDark] = useState(false);
 
   return (
-    <main className={styles.main}>
-      <Header />
+    <main className='flex flex-col gap-2 w-screen h-screen'>
       <Bio />
+      <Stack />
       <FavoriteProjects />
-      <RepoGrid />
-      <Footer/>
+      <Footer />
     </main>
   )
 }
-
