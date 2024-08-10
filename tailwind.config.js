@@ -4,7 +4,8 @@ module.exports = {
   content: [    
     './src/app/**/*.{ts,tsx}',
     './src/pages/**/*.{ts,tsx}',
-    './src/components/**/*.{ts,tsx}',
+    './src/Components/**/*.{ts,tsx}',
+    "./Components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily: {
