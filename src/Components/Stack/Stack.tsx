@@ -45,16 +45,15 @@ export default function Stack(){
             <h1 className='my-8 text-5xl font-semibold'>Stack</h1>
             <div className="flex lg:flex-row sm:flex-col justify-center items-center max-sm:w-screen w-1/2 max-sm:border-0 border-2 border-blue-200 rounded-lg shadow-lg">
                 {
-                    stacks.map((stack)=>{
-                        console.log(stack);
+                    stacks.map((stack, index)=>{
                         const { technologies } = stack;
                         return(
-                            <div className="flex flex-col first:mb-0 lg:border-r-2 last:border-r-0 justify-center items-center w-full max-sm:w-screen h-full max-sm:border-t-2 p-8">
+                            <div key={index} className="flex flex-col first:mb-0 lg:border-r-2 last:border-r-0 justify-center items-center w-full max-sm:w-screen h-full max-sm:border-t-2 p-8">
                                 <h1 className="flex justify-center text-3xl font-sans mb-8">{stack.name}</h1>
                                 <div>
                                     <ul className="flex flex-col ml-8">
-                                        {technologies.map((technologie)=> {
-                                            return <li>{technologie}</li>
+                                        {technologies.map((technologie, index)=> {
+                                            return <li key={index}>{technologie}</li>
                                         })}
                                     </ul>
                                 </div>
