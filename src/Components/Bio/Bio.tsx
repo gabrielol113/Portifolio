@@ -11,7 +11,7 @@ export default function Bio() {
                 <span className="font-extrabold sm:text-8xl font-mono text-4xl">Gabriel</span>
                 <br />
                 <p className=" font-mono">and here you will discover my <br /></p>
-                <p className="font-extrabold font-mono text-9xl"><span className="flex text-4xl">passion<Image className="bg-transparent hover:scale-x-[-1] transition-transform duration-1000" src={heart} width={50} height={50} alt="Heart" /></span></p>
+                <p className="font-extrabold font-mono text-9xl"><span className="flex text-4xl">passion<Image className="bg-transparent hover:scale-x-[-1] transition-transform duration-1000" src={heart} width={40} height={30} alt="Heart" /></span></p>
             </div>
             <div className="flex justify-center mt-12">
                 <Link
