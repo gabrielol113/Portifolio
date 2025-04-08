@@ -43,7 +43,7 @@ export default function Footer() {
             <div className="flex justify-center">
                 <div className="w-80">
                     <ul className="flex">
-                        <li className="mx-4 hover:text-white hover:mx-8 transition-all duration-500"><Link href={'/'}>Portifólio</Link></li>
+                        <li className="mx-4 hover:text-white hover:mx-8 transition-all duration-500"><Link href={'/'}>Portfolio</Link></li>
                         <li className="mx-4 hover:text-white hover:mx-8 transition-all duration-500"><Link href={'/about'}>About</Link></li>
                         <li className="mx-4 hover:text-white hover:mx-8 transition-all duration-500"><Link href={'/contact'}>Contact</Link></li>
                     </ul>
